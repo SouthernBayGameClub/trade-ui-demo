@@ -1,0 +1,113 @@
+.cash-balance {
+  --cash-c: #ff9800;
+  text-align: center;
+  margin: 5px 0;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cash-flow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cash-arrow {
+  font-size: 28px;
+  color: var(--cash-c);
+  font-weight: bold;
+}
+
+.cash-amount {
+  height: 15px;
+  color: var(--cash-c);
+  background: transparent;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+.cash-details {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+}
+
+.balance-separator {
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cash-flow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+}
+.cash-account {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.cash-after-flow {
+  color: var(--cash-c);
+}
+.long-arrow {
+  --c: var(--cash-c);
+  position: relative;
+  width: 180px; /* Adjust length */
+  height: 2px; /* Thin line */
+  background-color: var(--c);
+  margin: 20px 0;
+}
+
+.long-arrow::after {
+  display: none;
+  content: '';
+  position: absolute;
+  right: -8px;
+  top: -6px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid var(--c);
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+
+.long-arrow::before {
+  display: none;
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: -6px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid var(--c);
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+
+/* Optional: Left arrow */
+.long-arrow.left::before {
+  display: block;
+}
+/* Optional: Left arrow */
+.long-arrow.right::after {
+  display: block;
+}

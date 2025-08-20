@@ -1,0 +1,49 @@
+.final-balance-previewer {
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  color: #333;
+}
+
+.final-balance-amount {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 24px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  min-width: 120px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.final-balance-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.balance-breakdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.balance-separator {
+  color: #ff9800;
+  font-size: 16px;
+  font-weight: bold;
+}

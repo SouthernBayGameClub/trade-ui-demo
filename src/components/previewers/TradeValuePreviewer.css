@@ -1,0 +1,19 @@
+.trade-value-previewer {
+  text-align: center;
+  margin: 5px 15px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.value-side-left .trade-value-previewer {
+  justify-content: right;
+}
+
+.trade-value-amount {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  /*text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);*/
+  margin: 0;
+}
