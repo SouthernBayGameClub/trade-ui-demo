@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trade-ui-demo/static/css/main.07836527.css",
+    "main.js": "/trade-ui-demo/static/js/main.e1b1a141.js",
+    "static/media/bg.png": "/trade-ui-demo/static/media/bg.9d59ccc4653f1191311a.png",
+    "index.html": "/trade-ui-demo/index.html",
+    "main.07836527.css.map": "/trade-ui-demo/static/css/main.07836527.css.map",
+    "main.e1b1a141.js.map": "/trade-ui-demo/static/js/main.e1b1a141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07836527.css",
+    "static/js/main.e1b1a141.js"
+  ]
+}
